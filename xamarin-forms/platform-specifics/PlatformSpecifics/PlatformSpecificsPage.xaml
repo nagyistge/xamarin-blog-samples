@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:PlatformSpecifics" x:Class="PlatformSpecifics.PlatformSpecificsPage">
+	<StackLayout>
+		<Image x:Name="logo" Source="Xamagon.png" HeightRequest="250" WidthRequest="250"/>
+		<Button x:Name="button1" Text="No Blur"/>
+		<Button x:Name="button2" Text="Extra Light Blur"/>
+		<Button x:Name="button3" Text="Light Blur"/>
+		<Button x:Name="button4" Text="Dark Blur"/>
+	</StackLayout>
+</ContentPage>

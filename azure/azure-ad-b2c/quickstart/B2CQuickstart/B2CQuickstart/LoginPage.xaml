@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="B2CQuickstart.LoginPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+  <StackLayout>
+    <Button Clicked="LoginButton_Clicked" Text="Login with Azure AD B2C" />
+  </StackLayout>
+</ContentPage>
